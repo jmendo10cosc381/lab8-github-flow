@@ -31,6 +31,7 @@ if __name__ == "__main__":
         #choice = choice.strip().lower()
         choice = Prompt.ask("[bold u dark_green]Which direction do you choose?[/bold u dark_green] [bold italic dark_green](left/right/exit): [/bold italic dark_green]")
         if choice == 'exit':
+            print("[bold gold1]Goodbye Adventurer![/bold gold1]")
             break
         
         print(step(choice, events))
